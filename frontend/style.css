@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+}
+
+.galaxy {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.create-btn {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, cyan, purple);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 20px cyan;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.planet-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+}
